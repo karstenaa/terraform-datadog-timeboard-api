@@ -3,5 +3,5 @@ variable "product_domain" {
 }
 
 variable "cluster" {
-  default = "paypapi-app"
+  default = "beical-app"
 }
