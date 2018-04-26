@@ -1,4 +1,6 @@
 resource "datadog_timeboard" "api" {
+  count = "${var.enabled}"
+
   title       = "${var.product_domain} - ${var.cluster} - API"
   description = "A generated timeboard for API"
 
